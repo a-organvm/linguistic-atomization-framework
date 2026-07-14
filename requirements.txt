@@ -2,7 +2,7 @@
 # Install with: pip install -r requirements.txt
 
 # Core data science
-numpy>=2.4.6
+numpy>=2.5.1
 scikit-learn>=1.9.0
 pyyaml>=6.0.3
 
@@ -13,17 +13,17 @@ textblob>=0.20.0
 
 # Visualization (if generating static images)
 matplotlib>=3.11.0
-plotly>=6.8.0
+plotly>=6.9.0
 
 # PDF Processing
 pdfplumber>=0.11.10    # Layout-aware text extraction
-PyMuPDF>=1.27.2.3       # Font metadata for heading detection (import as fitz)
+PyMuPDF>=1.28.0       # Font metadata for heading detection (import as fitz)
 
 # Utilities
-tqdm>=4.68.3
+tqdm>=4.68.4
 
 # Web Interface
-streamlit>=1.58.0
+streamlit>=1.59.2
 watchdog>=6.0.0       # For Streamlit file watching
 
 # Desktop Application (optional - for standalone app)
